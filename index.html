@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="py-5">
+      <div class="container2">
+        <div class="flex gap-4 justify-between">
+          <div class="flex gap-7 items-center">
+            <img src="./src/assets/img/logo.png" alt="" />
+            <input id="check" type="checkbox" />
+
+            <ul
+              class="links flex gap-5 text-[18px] transition text-[#575756] duration-500"
+            >
+              <li><a class="hover:text-[#3a85f4]" href="#">Аналитика</a></li>
+              <li><a class="hover:text-[#3a85f4]" href="#">Сообщество</a></li>
+              <li>
+                <a class="hover:text-[#3a85f4]" href="#">Для организаций</a>
+              </li>
+              <label class="close" for="check"
+                ><i class="fa-solid fa-xmark"></i
+              ></label>
+            </ul>
+          </div>
+          <div class="flex items-center gap-5 max-[320px]:gap-2">
+            <button
+              class="rounded-[123px] bottom-[1px] text-sm px-5 py-1 text-[#3a85f4] border border-[#3a85f4] hover:bg-primary hover:text-white duration-500 flex gap-1 max-[320px]:px-2 max-[320px]:py-[1px]"
+            >
+              <p class="max-[350px]:hidden">Создать</p>
+              <p class="hidden max-[350px]:block">+</p>
+              <p>заявку</p>
+            </button>
+            <img
+              class="max-[750px]:flex hidden max-[500px]:hidden"
+              src="./src/assets/img/chats.png"
+              alt=""
+            />
+            <img
+              class="max-[750px]:flex hidden max-[500px]:hidden"
+              src="./src/assets/img/notifications.png"
+              alt=""
+            />
+            <label class="bar hidden max-[750px]:flex" for="check">
+              <img src="./src/assets/svg/menu.svg" alt="" />
+            </label>
+
+            <img
+              class="max-[846px]:hidden"
+              src="./src/assets/svg/navbar1.svg"
+              alt=""
+            />
+            <img
+              class="max-[846px]:hidden"
+              src="./src/assets/svg/navbar2.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <section
+      class="showcase relative max-[752px]:pb-[80px] max-[480px]:pt-[20px] max-[480px]:pb-[140px]"
+    >
+      <div
+        class="container2 flex items-center gap-10 justify-center max-[900px]:justify-start"
+      >
+        <div
+          class="showcase_txt flex flex-col gap-4 items-start max-[752px]:pb-5 max-[400px]:gap-2 max-[400px]:w-100%"
+        >
+          <h1
+            class="font-bold text-[36px] text-[#2f2f2f] max-[1072px]:text-[30px] max-[1072px]:leading-8 max-[400px]:text-[24px]"
+          >
+            Сообщество <br class="max-[480px]:hidden" />
+            взаимопомощи между <br class="max-[480px]:hidden" />
+            учёными со всего мира
+          </h1>
+          <p
+            class="font-normal text-[16px] text-[#2f2f2f] max-w-[483px] max-[1072px]:hidden max-[400px]:text-[14px]"
+          >
+            Удобный сервис, который подберёт для вас коллег и поможет наладить с
+            ними взаимовыгодное сотрудничество в областях совместных
+            исследований, соавторства, рецензирования и повышения индекса
+            цитирования.
+          </p>
+          <p
+            class="font-normal text-[16px] text-[#2f2f2f] max-w-[483px] hidden max-[1072px]:flex"
+          >
+            Аналитика, соавторство, рецензирование и продвижение научных работ.
+          </p>
+          <button
+            class="text-[14px] text-center uppercase font-bold rounded-[123px] bg-primary text-white px-5 py-2 active:scale-[0.9]"
+          >
+            Присоединиться
+          </button>
+        </div>
+        <div
+          class="bg-transparent max-[900px]:absolute bottom-0 right-[20px] max-[900px]:w-[220px] max-[464px]:"
+        >
+          <img src="./src/assets/img/showcase.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container2 pt-10 w-[90%]">
+        <h1 class="text-[26px] text-[#383838] font-bold text-center">
+          Как это работает
+        </h1>
+        <div
+          class="grid grid-cols-4 gap-20 mt-5 max-[990px]:grid-cols-2 max-[500px]:gap-4"
+        >
+          <div class="flex flex-col gap-2 relative z-50">
+            <div
+              class="box p-2 w-[179px] rounded-[14px] h-[179px] flex flex-col items-center justify-center m-auto max-[390px]:w-[100px] max-[390px]:h-[100px]"
+            >
+              <img
+                class="p-3 m-auto"
+                src="./src/assets/img/progress1.png"
+                alt=""
+              />
+            </div>
+            <div class="absolute z-10">
+              <img src="./src/assets/img/1.png" alt="" />
+            </div>
+            <p class="text-center max-[390px]:text-[12px]">
+              Оцените <br />привлекательность темы
+            </p>
+          </div>
+          <div class="flex flex-col relative gap-2 z-50">
+            <div
+              class="box p-2 w-[179px] rounded-[14px] h-[179px] flex flex-col items-center justify-center m-auto max-[390px]:w-[100px] max-[390px]:h-[100px]"
+            >
+              <img
+                class="p-3 m-auto"
+                src="./src/assets/img/progress2.png"
+                alt=""
+              />
+            </div>
+            <div class="absolute z-10">
+              <img src="./src/assets/img/2.png" alt="" />
+            </div>
+            <p class="text-center max-[390px]:text-[12px]">
+              Выполните совместные исследования
+            </p>
+          </div>
+          <div class="flex flex-col relative gap-2 z-50">
+            <div
+              class="box p-2 w-[179px] rounded-[14px] h-[179px] flex flex-col items-center justify-center m-auto max-[390px]:w-[100px] max-[390px]:h-[100px]"
+            >
+              <img
+                class="p-3 m-auto"
+                src="./src/assets/img/progress3.png"
+                alt=""
+              />
+            </div>
+            <div class="absolute z-10">
+              <img src="./src/assets/img/3.png" alt="" />
+            </div>
+            <p class="text-center max-[390px]:text-[12px]">
+              Улучшите написанную <br />
+              работу
+            </p>
+          </div>
+          <div class="flex flex-col gap-2 relative z-50">
+            <div
+              class="box p-2 w-[179px] rounded-[14px] h-[179px] flex flex-col items-center justify-center m-auto max-[390px]:w-[100px] max-[390px]:h-[100px]"
+            >
+              <img
+                class="p-3 m-auto"
+                src="./src/assets/img/progress4.png"
+                alt=""
+              />
+            </div>
+            <div class="absolute z-10">
+              <img src="./src/assets/img/4.png" alt="" />
+            </div>
+            <p class="text-center max-[390px]:text-[12px]">
+              Продвиньте свою работу
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container2 pt-10">
+        <h1 class="text-[26px] text-[#383838] font-bold text-center">
+          Сообщество
+        </h1>
+        <p class="pt-3 text-center text-[#464646] font-normal leading-9">
+          Тысячи учёных уже предлагают свою помощь
+        </p>
+
+        <div
+          class="grid mt-10 grid-cols-3 gap-5 max-[1334px]:grid-cols-2 max-[878px]:grid-cols-1"
+        >
+          <div class="card bg-black flex flex-col gap-5 p-4">
+            <div
+              class="flex gap-2 justify-around items-center max-[428px]:flex-col max-[428px]:items-start"
+            >
+              <p
+                class="bg-[#fdffe7] px-3 py-2 rounded-[75px] text-[11px] font-black text-[#bc9300] uppercase"
+              >
+                Повысить цитируемость ...
+              </p>
+              <p
+                class="bg-[#ebfffa] px-3 py-2 rounded-[75px] text-[11px] font-black text-[#00a880] uppercase"
+              >
+                Engineering/Material
+              </p>
+            </div>
+            <div>
+              <p class="font-semibold text-[18px] text-[#2f2f2f] leading-5">
+                Вопросы проектирования трансатлантического межнационального
+                продуктопровода в условиях
+              </p>
+            </div>
+            <div class="flex flex-col gap-1">
+              <p class="text-[15px] font-medium text-[#505050]">Комментарий</p>
+              <p class="text-[14px] font-normal text-[#2f2f2f]">
+                Могу ещё помочь со статистической обработкой больших массивов
+              </p>
+            </div>
+            <div>
+              <p>Вознаграждение</p>
+              <p></p>
+            </div>
+            <div class="flex gap-2">
+              <div
+                class="flex gap-1 items-center bg-[#f3f3f3] rounded-[75px] px-3 py-1 max-[433px]:px-1 max-[433px]:py-0"
+              >
+                <img src="./src/assets/svg/card_item.svg" alt="" />
+                <p class="text-[2f2f2f] text-lg font-normal">первый ключ</p>
+              </div>
+              <div
+                class="flex gap-1 items-center bg-[#f3f3f3] rounded-[75px] px-3 py-1 max-[433px]:px-1 max-[433px]:py-0 max-[374px]:hidden"
+              >
+                <img src="./src/assets/svg/card_item.svg" alt="" />
+                <p class="text-[2f2f2f] text-lg lowercase font-normal">
+                  второй ключ
+                </p>
+              </div>
+              <div
+                class="flex gap-2 items-center bg-[#f3f3f3] rounded-[75px] px-3 py-1 max-[433px]:px-2 max-[433px]:py-0"
+              >
+                <p class="text-[2f2f2f] text-lg lowercase font-normal">+5</p>
+              </div>
+            </div>
+            <div class="bg-[#cadcf8] h-[1px] w-[100%]"></div>
+            <div class="flex gap-3 items-center">
+              <img src="./src/assets/img/avtar.png" alt="" />
+              <div>
+                <p class="flex items-center gap-1 text-[#2f2f2f] font-bold">
+                  Артём Белоусов
+                  <img src="./src/assets/img/russia 1.png" alt="" />
+                </p>
+                <p class="text-[14px] font-normal text-[#2f2f2f]">
+                  учёный (кандидат наук)
+                </p>
+                <p class="text-[14px] font-normal text-[#2f2f2f]">
+                  Санкт-Петербургский горный университет
+                </p>
+              </div>
+            </div>
+            <div class="bg-[#cadcf8] h-[1px] w-[100%]"></div>
+            <div class="flex justify-between gap-4">
+              <button
+                class="text-[14px] text-center uppercase font-bold rounded-[123px] bg-primary text-white px-5 py-2 active:scale-[0.9]"
+              >
+                Предложить сотрудничество
+              </button>
+              <img src="./src/assets/svg/arrow.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="card bg-black flex flex-col gap-5 p-4">
+            <div
+              class="flex gap-2 justify-around items-center max-[428px]:flex-col max-[428px]:items-start"
+            >
+              <p
+                class="bg-[#fdffe7] px-3 py-2 rounded-[75px] text-[11px] font-black text-[#bc9300] uppercase"
+              >
+                Повысить цитируемость ...
+              </p>
+              <p
+                class="bg-[#ebfffa] px-3 py-2 rounded-[75px] text-[11px] font-black text-[#00a880] uppercase"
+              >
+                Engineering/Material
+              </p>
+            </div>
+            <div>
+              <p class="font-semibold text-[18px] text-[#2f2f2f] leading-5">
+                Вопросы проектирования трансатлантического межнационального
+                продуктопровода в условиях
+              </p>
+            </div>
+            <div class="flex flex-col gap-1">
+              <p class="text-[15px] font-medium text-[#505050]">Комментарий</p>
+              <p class="text-[14px] font-normal text-[#2f2f2f]">
+                Могу ещё помочь со статистической обработкой больших массивов
+              </p>
+            </div>
+            <div>
+              <p>Вознаграждение</p>
+              <p></p>
+            </div>
+            <div class="flex gap-2">
+              <div
+                class="flex gap-1 items-center bg-[#f3f3f3] rounded-[75px] px-3 py-1 max-[433px]:px-1 max-[433px]:py-0"
+              >
+                <img src="./src/assets/svg/card_item.svg" alt="" />
+                <p class="text-[2f2f2f] text-lg font-normal">первый ключ</p>
+              </div>
+              <div
+                class="flex gap-1 items-center bg-[#f3f3f3] rounded-[75px] px-3 py-1 max-[433px]:px-1 max-[433px]:py-0 max-[374px]:hidden"
+              >
+                <img src="./src/assets/svg/card_item.svg" alt="" />
+                <p class="text-[2f2f2f] text-lg lowercase font-normal">
+                  второй ключ
+                </p>
+              </div>
+              <div
+                class="flex gap-2 items-center bg-[#f3f3f3] rounded-[75px] px-3 py-1 max-[433px]:px-2 max-[433px]:py-0"
+              >
+                <p class="text-[2f2f2f] text-lg lowercase font-normal">+5</p>
+              </div>
+            </div>
+            <div class="bg-[#cadcf8] h-[1px] w-[100%]"></div>
+            <div class="flex gap-3 items-center">
+              <img src="./src/assets/img/avtar.png" alt="" />
+              <div>
+                <p class="flex items-center gap-1 text-[#2f2f2f] font-bold">
+                  Артём Белоусов
+                  <img src="./src/assets/img/russia 1.png" alt="" />
+                </p>
+                <p class="text-[14px] font-normal text-[#2f2f2f]">
+                  учёный (кандидат наук)
+                </p>
+                <p class="text-[14px] font-normal text-[#2f2f2f]">
+                  Санкт-Петербургский горный университет
+                </p>
+              </div>
+            </div>
+            <div class="bg-[#cadcf8] h-[1px] w-[100%]"></div>
+            <div class="flex justify-between gap-4">
+              <button
+                class="text-[14px] text-center uppercase font-bold rounded-[123px] bg-primary text-white px-5 py-2 active:scale-[0.9]"
+              >
+                Предложить сотрудничество
+              </button>
+              <img src="./src/assets/svg/arrow.svg" alt="" />
+            </div>
+          </div>
+          <div class="card bg-black flex flex-col gap-5 p-4">
+            <div
+              class="flex gap-2 justify-around items-center max-[428px]:flex-col max-[428px]:items-start"
+            >
+              <p
+                class="bg-[#fdffe7] px-3 py-2 rounded-[75px] text-[11px] font-black text-[#bc9300] uppercase"
+              >
+                Повысить цитируемость ...
+              </p>
+              <p
+                class="bg-[#ebfffa] px-3 py-2 rounded-[75px] text-[11px] font-black text-[#00a880] uppercase"
+              >
+                Engineering/Material
+              </p>
+            </div>
+            <div>
+              <p class="font-semibold text-[18px] text-[#2f2f2f] leading-5">
+                Вопросы проектирования трансатлантического межнационального
+                продуктопровода в условиях
+              </p>
+            </div>
+            <div class="flex flex-col gap-1">
+              <p class="text-[15px] font-medium text-[#505050]">Комментарий</p>
+              <p class="text-[14px] font-normal text-[#2f2f2f]">
+                Могу ещё помочь со статистической обработкой больших массивов
+              </p>
+            </div>
+            <div>
+              <p>Вознаграждение</p>
+              <p></p>
+            </div>
+            <div class="flex gap-2">
+              <div
+                class="flex gap-1 items-center bg-[#f3f3f3] rounded-[75px] px-3 py-1 max-[433px]:px-1 max-[433px]:py-0"
+              >
+                <img src="./src/assets/svg/card_item.svg" alt="" />
+                <p class="text-[2f2f2f] text-lg font-normal">первый ключ</p>
+              </div>
+              <div
+                class="flex gap-1 items-center bg-[#f3f3f3] rounded-[75px] px-3 py-1 max-[433px]:px-1 max-[433px]:py-0 max-[374px]:hidden"
+              >
+                <img src="./src/assets/svg/card_item.svg" alt="" />
+                <p class="text-[2f2f2f] text-lg lowercase font-normal">
+                  второй ключ
+                </p>
+              </div>
+              <div
+                class="flex gap-2 items-center bg-[#f3f3f3] rounded-[75px] px-3 py-1 max-[433px]:px-2 max-[433px]:py-0"
+              >
+                <p class="text-[2f2f2f] text-lg lowercase font-normal">+5</p>
+              </div>
+            </div>
+            <div class="bg-[#cadcf8] h-[1px] w-[100%]"></div>
+            <div class="flex gap-3 items-center">
+              <img src="./src/assets/img/avtar.png" alt="" />
+              <div>
+                <p class="flex items-center gap-1 text-[#2f2f2f] font-bold">
+                  Артём Белоусов
+                  <img src="./src/assets/img/russia 1.png" alt="" />
+                </p>
+                <p class="text-[14px] font-normal text-[#2f2f2f]">
+                  учёный (кандидат наук)
+                </p>
+                <p class="text-[14px] font-normal text-[#2f2f2f]">
+                  Санкт-Петербургский горный университет
+                </p>
+              </div>
+            </div>
+            <div class="bg-[#cadcf8] h-[1px] w-[100%]"></div>
+            <div class="flex justify-between gap-4">
+              <button
+                class="text-[14px] text-center uppercase font-bold rounded-[123px] bg-primary text-white px-5 py-2 active:scale-[0.9]"
+              >
+                Предложить сотрудничество
+              </button>
+              <img src="./src/assets/svg/arrow.svg" alt="" />
+            </div>
+          </div>
+          <div class="card bg-black flex flex-col gap-5 p-4">
+            <div
+              class="flex gap-2 justify-around items-center max-[428px]:flex-col max-[428px]:items-start"
+            >
+              <p
+                class="bg-[#fdffe7] px-3 py-2 rounded-[75px] text-[11px] font-black text-[#bc9300] uppercase"
+              >
+                Повысить цитируемость ...
+              </p>
+              <p
+                class="bg-[#ebfffa] px-3 py-2 rounded-[75px] text-[11px] font-black text-[#00a880] uppercase"
+              >
+                Engineering/Material
+              </p>
+            </div>
+            <div>
+              <p class="font-semibold text-[18px] text-[#2f2f2f] leading-5">
+                Вопросы проектирования трансатлантического межнационального
+                продуктопровода в условиях
+              </p>
+            </div>
+            <div class="flex flex-col gap-1">
+              <p class="text-[15px] font-medium text-[#505050]">Комментарий</p>
+              <p class="text-[14px] font-normal text-[#2f2f2f]">
+                Могу ещё помочь со статистической обработкой больших массивов
+              </p>
+            </div>
+            <div>
+              <p>Вознаграждение</p>
+              <p></p>
+            </div>
+            <div class="flex gap-2">
+              <div
+                class="flex gap-1 items-center bg-[#f3f3f3] rounded-[75px] px-3 py-1 max-[433px]:px-1 max-[433px]:py-0"
+              >
+                <img src="./src/assets/svg/card_item.svg" alt="" />
+                <p class="text-[2f2f2f] text-lg font-normal">первый ключ</p>
+              </div>
+              <div
+                class="flex gap-1 items-center bg-[#f3f3f3] rounded-[75px] px-3 py-1 max-[433px]:px-1 max-[433px]:py-0 max-[374px]:hidden"
+              >
+                <img src="./src/assets/svg/card_item.svg" alt="" />
+                <p class="text-[2f2f2f] text-lg lowercase font-normal">
+                  второй ключ
+                </p>
+              </div>
+              <div
+                class="flex gap-2 items-center bg-[#f3f3f3] rounded-[75px] px-3 py-1 max-[433px]:px-2 max-[433px]:py-0"
+              >
+                <p class="text-[2f2f2f] text-lg lowercase font-normal">+5</p>
+              </div>
+            </div>
+            <div class="bg-[#cadcf8] h-[1px] w-[100%]"></div>
+            <div class="flex gap-3 items-center">
+              <img src="./src/assets/img/avtar.png" alt="" />
+              <div>
+                <p class="flex items-center gap-1 text-[#2f2f2f] font-bold">
+                  Артём Белоусов
+                  <img src="./src/assets/img/russia 1.png" alt="" />
+                </p>
+                <p class="text-[14px] font-normal text-[#2f2f2f]">
+                  учёный (кандидат наук)
+                </p>
+                <p class="text-[14px] font-normal text-[#2f2f2f]">
+                  Санкт-Петербургский горный университет
+                </p>
+              </div>
+            </div>
+            <div class="bg-[#cadcf8] h-[1px] w-[100%]"></div>
+            <div class="flex justify-between gap-4">
+              <button
+                class="text-[14px] text-center uppercase font-bold rounded-[123px] bg-primary text-white px-5 py-2 active:scale-[0.9]"
+              >
+                Предложить сотрудничество
+              </button>
+              <img src="./src/assets/svg/arrow.svg" alt="" />
+            </div>
+          </div>
+          <div
+            class="card max-[1334px]:hidden bg-black flex flex-col gap-5 p-4"
+          >
+            <div class="flex gap-2 justify-around items-center">
+              <p
+                class="bg-[#fdffe7] px-3 py-2 rounded-[75px] text-[11px] font-black text-[#bc9300] uppercase"
+              >
+                Повысить цитируемость ...
+              </p>
+              <p
+                class="bg-[#ebfffa] px-3 py-2 rounded-[75px] text-[11px] font-black text-[#00a880] uppercase"
+              >
+                Engineering/Material
+              </p>
+            </div>
+            <div>
+              <p class="font-semibold text-[18px] text-[#2f2f2f] leading-5">
+                Вопросы проектирования трансатлантического межнационального
+                продуктопровода в условиях
+              </p>
+            </div>
+            <div class="flex flex-col gap-1">
+              <p class="text-[15px] font-medium text-[#505050]">Комментарий</p>
+              <p class="text-[14px] font-normal text-[#2f2f2f]">
+                Могу ещё помочь со статистической обработкой больших массивов
+              </p>
+            </div>
+            <div>
+              <p>Вознаграждение</p>
+              <p></p>
+            </div>
+            <div class="flex gap-2">
+              <div
+                class="flex gap-2 items-center bg-[#f3f3f3] rounded-[75px] px-3 py-1"
+              >
+                <img src="./src/assets/svg/card_item.svg" alt="" />
+                <p class="text-[2f2f2f] text-lg lowercase font-normal">
+                  первый ключ
+                </p>
+              </div>
+              <div
+                class="flex gap-2 items-center bg-[#f3f3f3] rounded-[75px] px-3 py-1"
+              >
+                <img src="./src/assets/svg/card_item.svg" alt="" />
+                <p class="text-[2f2f2f] text-lg lowercase font-normal">
+                  первый ключ
+                </p>
+              </div>
+              <div
+                class="flex gap-2 items-center bg-[#f3f3f3] rounded-[75px] px-3 py-1"
+              >
+                <p class="text-[2f2f2f] text-lg lowercase font-normal">+5</p>
+              </div>
+            </div>
+            <div class="bg-[#cadcf8] h-[1px] w-[100%]"></div>
+            <div class="flex gap-3 items-center">
+              <img src="./src/assets/img/avtar.png" alt="" />
+              <div>
+                <p class="flex items-center gap-1 text-[#2f2f2f] font-bold">
+                  Артём Белоусов
+                  <img src="./src/assets/img/russia 1.png" alt="" />
+                </p>
+                <p class="text-[14px] font-normal text-[#2f2f2f]">
+                  учёный (кандидат наук)
+                </p>
+                <p class="text-[14px] font-normal text-[#2f2f2f]">
+                  Санкт-Петербургский горный университет
+                </p>
+              </div>
+            </div>
+            <div class="bg-[#cadcf8] h-[1px] w-[100%]"></div>
+            <div class="flex justify-between gap-4">
+              <button
+                class="text-[14px] text-center uppercase font-bold rounded-[123px] bg-primary text-white px-5 py-2 active:scale-[0.9]"
+              >
+                Предложить сотрудничество
+              </button>
+              <img src="./src/assets/svg/arrow.svg" alt="" />
+            </div>
+          </div>
+          <div
+            class="card max-[1334px]:hidden bg-black flex flex-col gap-5 p-4"
+          >
+            <div class="flex gap-2 justify-around items-center">
+              <p
+                class="bg-[#fdffe7] px-3 py-2 rounded-[75px] text-[11px] font-black text-[#bc9300] uppercase"
+              >
+                Повысить цитируемость ...
+              </p>
+              <p
+                class="bg-[#ebfffa] px-3 py-2 rounded-[75px] text-[11px] font-black text-[#00a880] uppercase"
+              >
+                Engineering/Material
+              </p>
+            </div>
+            <div>
+              <p class="font-semibold text-[18px] text-[#2f2f2f] leading-5">
+                Вопросы проектирования трансатлантического межнационального
+                продуктопровода в условиях
+              </p>
+            </div>
+            <div class="flex flex-col gap-1">
+              <p class="text-[15px] font-medium text-[#505050]">Комментарий</p>
+              <p class="text-[14px] font-normal text-[#2f2f2f]">
+                Могу ещё помочь со статистической обработкой больших массивов
+              </p>
+            </div>
+            <div>
+              <p>Вознаграждение</p>
+              <p></p>
+            </div>
+            <div class="flex gap-2">
+              <div
+                class="flex gap-2 items-center bg-[#f3f3f3] rounded-[75px] px-3 py-1"
+              >
+                <img src="./src/assets/svg/card_item.svg" alt="" />
+                <p class="text-[2f2f2f] text-lg lowercase font-normal">
+                  первый ключ
+                </p>
+              </div>
+              <div
+                class="flex gap-2 items-center bg-[#f3f3f3] rounded-[75px] px-3 py-1"
+              >
+                <img src="./src/assets/svg/card_item.svg" alt="" />
+                <p class="text-[2f2f2f] text-lg lowercase font-normal">
+                  первый ключ
+                </p>
+              </div>
+              <div
+                class="flex gap-2 items-center bg-[#f3f3f3] rounded-[75px] px-3 py-1"
+              >
+                <p class="text-[2f2f2f] text-lg lowercase font-normal">+5</p>
+              </div>
+            </div>
+            <div class="bg-[#cadcf8] h-[1px] w-[100%]"></div>
+            <div class="flex gap-3 items-center">
+              <img src="./src/assets/img/avtar.png" alt="" />
+              <div>
+                <p class="flex items-center gap-1 text-[#2f2f2f] font-bold">
+                  Артём Белоусов
+                  <img src="./src/assets/img/russia 1.png" alt="" />
+                </p>
+                <p class="text-[14px] font-normal text-[#2f2f2f]">
+                  учёный (кандидат наук)
+                </p>
+                <p class="text-[14px] font-normal text-[#2f2f2f]">
+                  Санкт-Петербургский горный университет
+                </p>
+              </div>
+            </div>
+            <div class="bg-[#cadcf8] h-[1px] w-[100%]"></div>
+            <div class="flex justify-between gap-4">
+              <button
+                class="text-[14px] text-center uppercase font-bold rounded-[123px] bg-primary text-white px-5 py-2 active:scale-[0.9]"
+              >
+                Предложить сотрудничество
+              </button>
+              <img src="./src/assets/svg/arrow.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <button
+          class="mt-5 flex m-auto justify-center rounded-[123px] bottom-[1px] text-sm px-6 py-2 text-[#3a85f4] border border-[#3a85f4] hover:bg-primary hover:text-white duration-500 gap-1 max-[320px]:px-2 max-[320px]:py-[1px]"
+        >
+          <p class="">Смотреть все</p>
+
+          <p>заявку</p>
+        </button>
+      </div>
+    </section>
+    <footer class="bg-[#262628] mt-7">
+      <div class="container2 py-5 flex justify-between max-[1077px]:flex-col-reverse max-[10077px]:items-center max-[10077px]:text-center gap-4 max-[690px]:flex-row max-[400px]:flex-col">
+        <div class="flex flex-col max-[690px]:flex-col-reverse max-[400px]:flex-col  max-[400px]:text-center">
+          <p class="text-white leading-6 font-normal max-[690px]:text-left">Authortie</p>
+          <span class="text-[#888] leading-6 font-normal ">
+            © Все права защищены</span
+          >
+          <img class="hidden max-[690px]:mb-7 max-[1077px]:flex max-[494px]:w-[70px] max-[494px]:h-[14px] justify-center mt-4 " src="./src/assets/svg/social.svg" alt="">
+        </div>
+        <div>
+          <ul
+            class="flex gap-5 text-[18px] transition text-[#fff]  max-[494px]:text-[12px] duration-500 max-[690px]:flex-col max-[690px]:text-end max-[400px]:text-center"
+          >
+            <li>
+              <a class="hover:text-[#3a85f4]" href="#"
+                >Политика конфиденциальности</a
+              >
+            </li>
+            <li><a class="hover:text-[#3a85f4]" href="#">Аналитика</a></li>
+            <li><a class="hover:text-[#3a85f4]" href="#">Сообщество</a></li>
+            <li>
+              <a class="hover:text-[#3a85f4]" href="#">Для организаций</a>
+            </li>
+           
+          </ul>
+        </div>
+        <img class="max-[1077px]:hidden" src="./src/assets/svg/social.svg" alt="">
+      </div>
+    </footer>
+  </body>
+</html>
